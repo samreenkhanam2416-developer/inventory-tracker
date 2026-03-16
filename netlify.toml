@@ -1,8 +1,2 @@
 [build]
-  base = "inventory-tracker/inventory-tracker"
-  command = "npm install @angular-devkit/build-angular@17.3.0 @angular/cli@17.3.0 && npm install && ./node_modules/.bin/ng build --configuration production"
-  publish = "dist/browser"
-
-[build.environment]
-  NODE_VERSION = "18"
-  NPM_FLAGS = "--legacy-peer-deps"
+  base = "inventory-tracker/inventory-tracker/src"
