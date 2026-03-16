@@ -1,4 +1,4 @@
 [build]
   base="inventory-tracker/inventory-tracker"
-  command="npm install && npx ng build"
+  command="npm install && npm run build"
   publish="dist/browser"
