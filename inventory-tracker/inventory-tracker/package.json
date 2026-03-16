@@ -1,13 +1,11 @@
 {
   "name": "inventory-tracker",
   "version": "1.0.0",
-  "description": "Full-stack Inventory Management System — Angular 17 + .NET 8 Web API",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
-    "test": "ng test",
-    "lint": "ng lint"
+    "test": "ng test"
   },
   "private": true,
   "dependencies": {
@@ -23,8 +21,8 @@
     "zone.js": "~0.14.0"
   },
   "devDependencies": {
-    "@angular-devkit/build-angular": "^17.0.0",
-    "@angular/cli": "^17.0.0",
+    "@angular-devkit/build-angular": "^17.3.0",
+    "@angular/cli": "^17.3.0",
     "@angular/compiler-cli": "^17.0.0",
     "typescript": "~5.2.0"
   }
