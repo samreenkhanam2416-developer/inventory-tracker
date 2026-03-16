@@ -1,0 +1,4 @@
+[build]
+  base="inventory-tracker"
+  command="npm install && ng build"
+  publish="inventory-tracker/dist/i
